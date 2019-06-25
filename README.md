@@ -40,7 +40,7 @@ This produces a main.js that is ready to load we think
 
 # Deployment to GCP
 
-TODO - But cursive license (don't I have one?)
-TODO - try and paste main.js and see if works
-TODO - create stage-bucket so we can deploy from local
-TODO - add env file and print variable
+- TODO But cursive license (don't I have one?)
+- TODO try and paste main.js and see if works
+- TODO create stage-bucket so we can deploy from local
+- TODO add env file and print variable
