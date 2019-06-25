@@ -14,29 +14,21 @@ A gmail relay agent to automate forwarding my pay slips
 3. Change function to count mails matching a filter
 4. Write separate function to get attachments?
 
-## Setup
+# initial setup
 
-To get an interactive development environment run:
+Created deps.edn and core.cljs from scratch as per Clojurescript quick start
 
-    lein figwheel
+For intelliJ:
+1.  Install Cursive
+2.  Open project (should recognise as clojure deps)
+3a. <F4> to open module settings
+3b. Open SDK and select 12.0.1
+4.  Select Run -> Edit Configurations -> + -> Clojure Repl -> Local
+4a. Name: ClojureScript REPL
+4b. nREPL
+4c. Run with Deps
+4d. Before launch, add Build
+5. Run ClojureScript REPL and select cljs from drop down
+6. Go to core.cljs and load NS
 
-and open your browser at [localhost:3449](http://localhost:3449/).
-This will auto compile and send all changes to the browser without the
-need to reload. After the compilation process is complete, you will
-get a Browser Connected REPL. An easy way to try it is:
-
-    (js/alert "Am I connected?")
-
-and you should see an alert in the browser window.
-
-To clean all compiled files:
-
-    lein clean
-
-To create a production build run:
-
-    lein do clean, cljsbuild once min
-
-And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
 
