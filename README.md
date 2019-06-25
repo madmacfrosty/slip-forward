@@ -34,6 +34,7 @@ For intelliJ:
 # Node setup
 - brew install npm
 - npm install source-map-support
-- clj -m cljs.main --target node --output-to main.js -c slip-forward.core
+- clj -m cljs.main --target node --optimizations simple --output-to main.js -c slip-forward.core
 
+This produces a main.js that is ready to load we think
 
