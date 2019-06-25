@@ -14,3 +14,7 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 .idea/
+node_modules/
+out/
+*.js
+package-lock.json

@@ -19,16 +19,21 @@ A gmail relay agent to automate forwarding my pay slips
 Created deps.edn and core.cljs from scratch as per Clojurescript quick start
 
 For intelliJ:
-1.  Install Cursive
-2.  Open project (should recognise as clojure deps)
-3a. <F4> to open module settings
-3b. Open SDK and select 12.0.1
-4.  Select Run -> Edit Configurations -> + -> Clojure Repl -> Local
-4a. Name: ClojureScript REPL
-4b. nREPL
-4c. Run with Deps
-4d. Before launch, add Build
-5. Run ClojureScript REPL and select cljs from drop down
-6. Go to core.cljs and load NS
+-  Install Cursive
+-  Open project (should recognise as clojure deps)
+-- <F4> to open module settings
+-- Open SDK and select 12.0.1
+-  Select Run -> Edit Configurations -> + -> Clojure Repl -> Local
+-- Name: ClojureScript REPL
+-- nREPL
+-- Run with Deps
+-- Before launch, add Build
+- Run ClojureScript REPL and select cljs from drop down
+- Go to core.cljs and load NS
+
+# Node setup
+- brew install npm
+- npm install source-map-support
+- clj -m cljs.main --target node --output-to main.js -c slip-forward.core
 
 
